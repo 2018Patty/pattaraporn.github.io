@@ -1,0 +1,54 @@
+.site-navbar .site-logo a {
+  letter-spacing: 0.1em;
+  font-family: "Pacifico", cursive;
+  text-transform: none;
+  font-size: 1.3em;
+}
+
+.sticky-wrapper .site-navbar .subheader {
+  font-size: 0.7em;
+  color: #fff;
+  letter-spacing: 0.2em;
+  line-height: 1.2;
+  width: 300px;
+  margin-top: 7px;
+}
+.introduce {
+  /*font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
+  /*text-transform: capitalize;*/
+  font-size: 0.8rem;
+}
+.site-footer {
+  padding: 2em 0;
+}
+.leading {
+  font-weight: bold;
+  padding-right: 20px;
+
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.background {
+  font-size: 0.85rem;
+}
+.site-section {
+  padding: 0.5em;
+}
+.research {
+  font-family: "Sarabun", sans-serif;
+  text-align: justify;
+}
+.research li {
+  font-size: 0.9rem;
+  font-weight: 500;
+  /*color: black;*/
+  padding: 5px;
+}
+.author {
+  font-weight: bolder;
+  color: blue;
+}
+.subjectDesc {
+  font-size: 0.8rem;
+  text-align: justify;
+}

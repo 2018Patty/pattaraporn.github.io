@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/46c370176b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="pattyStyle.css" />
+    <style>
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+    </style>
+    <title>Pattaraporn's Portfolio</title>
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-light py-3">
+      <div class="container-fluid">
+        <a class="navbar-brand webname" href="#">
+          <div class="row">
+            <div class="col pt-2 logo">
+              <i class="fa-solid fa-rocket fa-2xl"></i>
+            </div>
+            <div class="col">Pattaraporn<br />Warintarawej</div>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Teaching</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- Showcase -->
+    <section class="text-dark p-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-lg-flex align-items-center justify-content-between">
+          <div>
+            <h2 class="fw-bold">
+              I am <span class="">Pattaraporn</span>
+            </h2>
+            <h3>I am a teacher.</h3>
+            <div class="mt-4 background">
+              <ul class="list-unstyled success">
+                <li>
+                  Department of Information Technology
+                  <br />
+                  Faculty of Science and Industrial Technology<br />
+                  Prince of Songkla Univeristy, Surat Thani Campus
+                </li>
+                <!-- <li class="leading">Education</li>
+                <li>
+                  Ph.D (Computer Sciences), Universite Montpellier II, France,
+                  2013.
+                </li>
+                <li>
+                  M.Sc (Information System Management), NIDA, Thailand, 2002
+                </li>
+                <li>B.Sc (Mathematics), Thaksin University, Thailand, 1997</li> -->
+              </ul>
+            </div>
+
+            <!-- <p class="my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eius
+              consectetur corrupti architecto. Explicabo fugiat placeat in
+              voluptatum officiis repudiandae ab, harum nihil reiciendis
+              delectus aut porro magni error natus.
+            </p> -->
+            <button class="btn btn-primary">Get to know me</button>
+          </div>
+
+          <img
+            src="images/patty.jpg"
+            class="img-fluid w-50 d-none d-lg-block"
+            alt="pic"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Teaching Section -->
+    <section class="teaching p-5">
+      <div class="container -->
+        <div class="row">
+          <div
+            class="col-md-12 col-lg-12 mb-2 mb-lg-2"
+            data-aos=""
+            data-aos-delay=""
+          >
+            <h2 class=""><a href="#">Research Funding</a></h2>
+            <ol class="success research" data-aos="fade-up">
+              <li>
+                <b class="author">ภัทราพร วรินทรเวช</b>, ณัฐพร ทองศรี, จริยา
+                เสกสรรค์,วิชชุตา มาชู. (2565)
+                ยกระดับการประเมินเมืองไมซ์ด้วยระบบสารสนเทศประสานความร่วมมือ
+                กรณีศึกษา: จังหวัดสุราษฎร์ธานี.
+                สำนักงานคณะกรรมการส่งเสริมวิทยาศาสตร์ วิจัยและนวัตกรรม (สกสว.)
+              </li>
+
+              <li>
+                วิชชุตา มาชู, ณัฐยา ยวงใย,
+                <b class="author">ภัทราพร วรินทรเวช</b>, ปทิดา โมราศิลป์, ณัฐพร
+                ทองศรี และณัฐมณ ราชรักษ์. (2565).
+                การศึกษาศักยภาพและสภาพปัญหาของชุมชนท้องถิ่นในจังหวัดสุราษฎร์ธานีต่อการพัฒนาการท่องเที่ยวเชิงสุขภาพ.
+                โครงการการศึกษาศักยภาพเพื่อยกระดับการพัฒนาเชิงพื้นที่ของเครือข่ายภายใต้กรอบ
+                Health and Wellness Tourism. สำนักงานปลัดกระทรวงอุดมศึกษา
+                วิทยาศาสตร์ วิจัยและนวัตกรรม.
+              </li>
+              <li>
+                ปทิดา โมราศิลป์, <b class="author">ภัทราพร วรินทรเวช</b>,
+                วิชชุตา มาชู, ณัฐยา ยวงใย, ณัฐพร ทองศรี. (2564).
+                ระบบวางแผนเส้นทางการท่องเที่ยวเชื่อมโยงแหล่งท่องเที่ยวชุมชน
+                กรณีศึกษาเส้นทางการท่องเที่ยวชุมชน อำเภอไชยา
+                จังหวัดสุราษฎร์ธานี. กระทรวงอุดมศึกษา วิทยาศาสตร์
+                วิจัยและนวัตกรรม.
+              </li>
+              <li>
+                <b class="author">ภัทราพร วรินทรเวช</b>, ธีระศักดิ์ ปั้นวิชัย
+                และ พรพงษ์ สุทธิรักษ์. (2562).
+                โครงการจัดทำฐานข้อมูลเชิงพื้นที่เพาะปลูกปาล์มน้ำมัน
+                โรงงานสกัดน้ำมันปาล์มดิบ โรงงานสกัดน้ำมันปาล์มบริสุทธิ์
+                ในขอบเขตจังหวัดชุมพร สุราษฎร์ธานี และกระบี่. งบกระทรวงศึกษาธิการ
+                ตามแผนบูรณาการพื้นที่ระดับภาค.
+              </li>
+              <li>
+                วิชชุตา มาชุ, ณัฐยา ยวงใย,
+                <b class="author">ภัทราพร วรินทรเวช</b> และปทิดา โมราศิลป์.
+                (2561).
+                โครงการพัฒนาศักยภาพและความพร้อมของกลุ่มจังหวัด‎ภาคใต้ฝั่งอ่าวไทยในการพัฒนาเป็น
+                ‎MICE Destination‎. งบจังหวัดสุราษฎร์ธานี. 1 ตุลาคม 2560 – 21
+                สิงหาคม 2561.
+              </li>
+              <li>
+                พิเชษวุฒิ นิลลออ และ<b class="author">ภัทราพร วรินทรเวช</b
+                >.(2561).
+                โครงการศึกษาและพัฒนาแนวทางการจัดการขยะชุมชน‎อย่างยั่งยืน‎.
+                งบโครงการ มอ.เพื่อชุมชนเข้มแข็ง. เมษายน 2560 – พฤษภาคม 2561.
+              </li>
+              <li>
+                สุชาติ เชิงทอง, สุทธิจิตต์ เชิงทอง และ<b class="author">ภัทราพร วรินทรเวช</b>
+                (2559).
+                โครงการการวิเคราะห์พื้นที่เสี่ยงต่อน้ำท่วมโดยการใช้ระบบสารสนเทศภูมิศาสตร์และการรับรู้ระยะไกลเพื่อประเมินผลกระทบต่อความมั่นคงอาหารในพื้นที่
+                จ.สุราษฎร์ธานี. สํานักงานกองทุนสนับสนุนการวิจัย (สกว.).
+              </li>
+              <li>
+                <b class="author">ภัทราพร วรินทรเวช</b>, วิชชุตา มาชู, สุภาภรณ์
+                ชัยอารยะเลิศ. (2558).
+                โครงการการสื่อสารภาพลักษณ์สมุยเกาะสีเขียวผ่านทางเว็บไซต์.
+                สํานักงานคณะกรรมการวิจัยแห่งชาติ (วช.)
+                และสํานักงานกองทุนสนับสนุนการวิจัย (สกว.).
+              </li>
+            </ol>
+            <h2 class="font-size-regular"><a href="#">Publications</a></h2>
+            <ol class="success research" data-aos="fade-up">
+              <li>
+                <b class="author">Warintarawej, P.</b> and Nillaor, P. (2023),
+                "Implementing data analysis based on the mixed clustering
+                technique for sustainable participatory waste management in a
+                low-budget area", Foresight, Vol. 25 No. 1, pp. 108-125.
+              </li>
+              <li>
+                Thongsri, N, <b class="author">Warintarawej. P.</b>, Chotkaew.
+                S., Saetang. W., (2022). Implementation of a personalized food
+                recommendation system based on collaborative filtering and
+                knapsack method. International Journal of Electrical and
+                Computer Engineering (IJECE). Vol. 12, No. 1, pp. 630~638.
+              </li>
+              <li>
+                Thongsri, N., <b class="author">Warintarawej. P.</b>, Chotkaew,
+                S. and Seksan, J. (2022), "A novel extended design thinking
+                approach and predicting antecedents of food friend application
+                acceptance during the COVID-19 outbreak", Foresight, Vol. 24 No.
+                3/4, pp. 408-428. https://doi.org/10.1108/FS-01-2021-0021.
+              </li>
+              <li>
+                สุภาภรณ์ ชัยอารยะเลิศ, วาสนา บุญแสวง,
+                <b class="author">ภัทราพร วรินทรเวช</b>, วนิดา แซ่ตั้ง และสันติ
+                โชติแก้ว. (2565).
+                การจัดการเรียนการสอนแบบผสมผสานเพื่อสร้างแรงจูงใจและการมีส่วนร่วม
+                กรณีศึกษารายวิชาการจัดการโครงการเทคโนโลยีสารสนเทศ.
+                วารสารราชภัฎสุราษฎร์ธานี. ปีที่ 9 ฉบับที่ 2.
+              </li>
+              <li>
+                <b class="author">ภัทราพร วรินทรเวช</b> วิชชุตา มาชู และสุภาภรณ์
+                ชัยอารยะเลิศ. (2560). การพัฒนาเว็บไซต์สื่อสาร
+                ภาพลักษณ์การท่องเที่ยวสีเขียว กรณีศึกษา อำเภอเกาะสมุย
+                จังหวัดสุราษฎร์ธานี. วารสาร เทคโนโลยีสารสนเทศ. ปีที่ 13 ฉบับที่
+                1 เดือนมกราคม-มิถุนายน 2560. (TCI-1).
+              </li>
+              <li>
+                <b class="author">Warintarawej, P.</b>, Huchard, M. ,
+                Lafourcade, M., Laurent, A., Pompidor, P. (2015). Automatic
+                software understanding data mining text classification software
+                engineering. Intelligent Data Analysis, vol. 19, no. 4, pp.
+                761-778. (ISI-Q3, Impact Factor: 0.25).
+              </li>
+            </ol>
+            <h2 class="font-size-regular"><a href="#">Proceedings</a></h2>
+            <ol class="success research" data-aos="fade-up">
+              <li>
+                <b class="author">ภัทราพร วรินทรเวช</b>. (2565).
+                การออกแบบการจัดการเรียนการสอนออนไลน์เชิงปฏิบัติการรายวิชา Web
+                Programming ในช่วงการระบาดของไวรัสโควิด-19
+                โดยใช้ปัญหาและโครงงานเป็นฐาน‎. การประชุมวิชาการ The 10th PSU
+                Education Conference ประจำปี 2022. หน้า 589-609.
+              </li>
+              <li>
+                <b class="author">ภัทราพร วรินทรเวช</b>. (2564).
+                การพัฒนาทักษะการเรียนรู้จากผลการประเมินตามสภาพจริง
+                ราย‎วิชาการเขียนโปรแกรมบนอุปกรณ์เคลื่อนที่‎. การประชุมวิชาการ
+                The 9th PSU Education Conference ประจำปี 2021. หน้า 588-589.
+              </li>
+              <li>
+                สุภาภรณ์ ชัยอารยะเลิศ, วาสนา บุญแสวง, อภิรดา ธาดาเดช, ภัทรา‎พร
+                วรินทรเวช และวนิดา แซ่ตั้ง. (2564).
+                การสร้างแรงจูงใจและการมีส่วนร่วมด้วยการจัดการเรียนการสอน‎
+                แบบผสมผสานในรายวิชาการจัดการโครงการเทคโนโลยีสารสนเทศ. ‎.
+                การประชุมวิชาการ The 9th PSU Education Conference ประจำปี 2021.
+                หน้า 510-511.
+              </li>
+
+              <li>
+                วิชชุตา มาชู ณัฐยา ยวงใย และ<b class="author"
+                  >ภัทราพร วรินทรเวช</b
+                >. (2562). ศักยภาพการเป็นเมืองไมซ์ของจังหวัดชุมพร (A Potential
+                of Chumphon as a MICE city). The 4th National Conference on
+                Informatics, Agriculture Management, Business Administration,
+                Engineering, Sciences, and Technology, and Social Sciences and
+                Humanities (The 4th IAMBEST 2019) การประชุมวิชาการระดับชาติ
+                IAMBEST 2019 ครั้งที่ 4 ประจำปี 2562.
+              </li>
+              <li>
+                <b class="author">ภัทราพร วรินทรเวช</b> กันตนา หาญณรงค์
+                ศรินทิพย์ นิ่มเนียม และ อัญชนา แซ่ตัน. (2561).
+                การพัฒนาระบบพาณิชย์อิเล็กทรอนิกส์สำหรับฟาร์มหอยนางรม
+                กรณีศึกษาอภิรมย์ฟาร์ม. การประชุมวิชาการระดับชาติและนานาชาติด้าน
+                MICE การท่องเที่ยวและการจัดการ (LAMS NICE) ครั้งที่ 1.
+              </li>
+              <li>
+                <b class="author">Warintarawej, P.</b>, Chaikong, K.,
+                Kadedaiwang, P., Onsrithong, P., Laksanajan, P., & Siwyew S.
+                (2014). Identifying Tourist Route Patterns Using Data Mining
+                Techniques. In Proceedings of the Tourism and Hospitality
+                International Conference, THIC 2014.
+              </li>
+              <li>
+                <b class="author">P. Warintarawej</b>, A. Laurent, P. Pompidor,
+                A. Cassanas and B. Laurent, "Classifying Words: A
+                Syllables-Based Model," 2011 22nd International Workshop on
+                Database and Expert Systems Applications, Toulouse, 2011, pp.
+                208-212, doi: 10.1109/DEXA.2011.21.
+              </li>
+              <li>
+                <b class="author"> P. Warintarawej</b>, A. Laurent, P.
+                Pompidor and B. Laurent, "Classification of brand names based on
+                n-grams," 2010 International Conference of Soft Computing and
+                Pattern Recognition, Paris, 2010, pp. 12-17, doi:
+                10.1109/SOCPAR.2010.5685842.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Academic Services Section -->
+    <section class="service p-5">
+      <div class="container">
+        <div class="row text-center pb-5">
+          <h2 class="topic1 text-primary">Academic Services</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg mb-3">
+            <div class="card">
+              <img
+                src="images/kelly-sikkema-v9FQR4tbIq8-unsplash.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <p>Date:</p>
+                  <p>24 Nov 2022</p>
+                </div>
+                <h5 class="card-title">Digital Marketing</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg mb-3">
+            <div class="card">
+              <img
+                src="images/annie-spratt-hCb3lIB8L8E-unsplash.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <p>Date:</p>
+                  <p>24 Nov 2022</p>
+                </div>
+                <h5 class="card-title">Data Analytic</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg mb-3">
+            <div class="card">
+              <img
+                src="images/scott-graham-5fNmWej4tAA-unsplash.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <p>Date:</p>
+                  <p>24 Nov 2022</p>
+                </div>
+                <h5 class="card-title">Business Intelligence</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg mb-3">
+            <div class="card">
+              <img
+                src="images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <p>Date:</p>
+                  <p>24 Nov 2022</p>
+                </div>
+                <h5 class="card-title">Software Development</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="bg-primary text-light p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-auto logofooter">
+            <i class="fa-solid fa-rocket"></i>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Teaching</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Research</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Acdemic Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <div class="d-flex justify-content-around">
+              <div class="search">
+                <div class="input-group mb-3 pe-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="E-mail"
+                  />
+                  <button
+                    class="btn btn-light"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+                <p>Stay in touch with me!</p>
+              </div>
+              <div class="d-none d-lg-block">
+                <p>Prince of Songkla Univeristy, Surat Thani Campus.</p>
+                <p>31 Moo 6 Makhamtia</p>
+                <p>Muang, Surat Thani, 84000</p>
+                <p>Tel. 077-344040</p>
+              </div>
+              <div class="w-25">
+                <div class="d-flex justify-content-around">
+                  <i class="fa-brands fa-instagram social"></i>
+                  <i class="fa-brands fa-twitter social"></i>
+                  <i class="fa-brands fa-facebook social"></i>
+                  <i class="fa-solid fa-earth-americas social"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

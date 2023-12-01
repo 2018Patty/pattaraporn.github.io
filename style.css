@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+body {
+  font-family: "Kanit", sans-serif;
+  /* font-family: "Quicksand", sans-serif; */
+  font-size: 14px;
+}
+.webname {
+  text-transform: uppercase;
+  font-size: 1.05em;
+  letter-spacing: 2px;
+}
+.logo {
+  font-size: 16px;
+  color: Dodgerblue;
+  padding-right: 0;
+}
+.intro {
+}
+.service {
+  background-color: #fdca40;
+}
+.teaching {
+}
+.leading {
+  font-weight: bold;
+  padding-right: 20px;
+
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.icon {
+  color: Dodgerblue;
+  font-size: 60px;
+}
+.topic1 {
+  font-size: 30px;
+}
+
+.topic2 {
+  font-size: 20px;
+}
+.logofooter {
+  font-size: 3em;
+}
+.social {
+  font-size: 1.2em;
+}
+.profilePic {
+  object-fit: cover;
+}
+.headHero {
+  font-size: 2em;
+}
+.subHead {
+  font-size: 1.5em;
+  letter-spacing: 1.1px;
+}
+.subHead {
+  font-size: 0.9em;
+  letter-spacing: 1.1px;
+}
+
+@media (max-width: 575px) {
+  .profilePic {
+    display: none;
+    /* display: inline;
+    order:1;
+    padding: 10px; */
+  }
+  .headHero {
+    font-size: 1.5em;
+  }
+  .subHead {
+    font-size: 0.8em;
+    letter-spacing: 1.1px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .social {
+    font-size: 0.8em;
+  }
+  .profilePic {
+    /* display: none; */
+    /* display: inline;*/
+    order: 1;
+    padding: 15px;
+  }
+  .hero {
+    order: 2;
+  }
+}
