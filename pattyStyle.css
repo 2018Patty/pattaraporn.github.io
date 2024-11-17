@@ -35,7 +35,8 @@
   padding: 0.5em;
 }
 .research {
-  font-family: "Sarabun", sans-serif;
+  /* font-family: "Sarabun", sans-serif; */
+  font-family: "Noto Serif Thai", serif;
   text-align: justify;
 }
 .research li {

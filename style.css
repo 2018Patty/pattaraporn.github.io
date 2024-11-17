@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@100..900&display=swap");
 
 body {
   font-family: "Kanit", sans-serif;
-  /* font-family: "Quicksand", sans-serif; */
+  /* font-family: "Noto Serif Thai", serif; */
   font-size: 14px;
 }
 .webname {
