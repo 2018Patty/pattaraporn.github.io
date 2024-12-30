@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+</head>
+
+<body>
+    <h1>Subscribe</h1>
+    <!-- form method post/get -->
+    <form action="http://www.example.com" method="post">
+        <label for="username">Username : </label>
+        <input type="text" name="username" size="20" maxlength="5" 
+        placeholder="Please input username"/>
+
+        <br>
+        <label for="password">Password : </label>
+        <input type="password" name="password">
+
+        <br>
+        <label for="comment">Comment : </label>
+        <textarea name="comment"  cols="30" rows="5"></textarea>
+
+        <br>
+
+        <label for="gender">Gender : </label>
+        <input type="radio" name="gender" checked>Female
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Other
+
+        <br>
+        <label for="news">Newsletter : </label>
+        <input type="checkbox" name="news" checked>Accept Newsletter
+        <input type="checkbox" name="promotion">Promotions
+
+
+        <br>
+        <label for="province">Province : </label>
+        <select name="province">
+            <option value="Bangkok">Bangkok</option>
+            <option value="Surat Thani">Surat Thani</option>
+            <option value="Phuket">Phuket</option>
+        </select>
+
+        <br>
+        <label for="photo">Photo Profile : </label>
+        <input type="file" name="photo" >
+
+        <br>
+        <input type="submit" value="OK">
+        <input type="reset" value="Cancel">
+
+    </form>
+     
+
+</body>
+
+</html>

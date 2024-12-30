@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap");
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a:link {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+  color: green;
+}
+a:active {
+  color: chocolate;
+}
+a:hover {
+  background-color: yellow;
+}
+.heading {
+  background-color: yellow;
+  margin: 30px;
+  border: 10px solid red;
+  padding: 10px;
+}
+.para {
+  background-color: aqua;
+}
+.menu {
+  background-color: blanchedalmond;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.box1 {
+  background-color: aquamarine;
+  width: 300px;
+  margin: 20px 30px 100px 200px; /* วนตามเข็มนาฬิกา บน ขวา ล่าง ซ้าย */
+  border: 3px solid blue;
+  padding: 20px 30px; /*บน-ล่าง ซ้าย-ขวา*/
+}
+.box2 {
+  background-color: lightgoldenrodyellow;
+  width: 400px;
+  margin: 10px 20px;
+  border: 3px solid blue;
+  padding: 10px;
+}
+
+.box3 {
+  background-color: lightpink;
+  width: 500px;
+  width: 400px;
+  margin: 10px 30px 20px 500px;
+  border: 3px solid blue;
+  padding: 10px;
+}
+
+/* ต้องการกำหนดให้กล่องทั้งสามใบ มีขนาด 300 px
+และมีขนาด margin 10px
+padding 10px
+border สีน้ำเงิน หนา 3px เส้นทึบ
+แต่มีสีพื้นหลังต่างกัน */
+
+.b1,
+.b2,
+.b3 {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid blue;
+  /* border-width: 3px; */
+  border-radius: 10px;
+}
+.b1 {
+  background-color: aquamarine;
+}
+.b2 {
+  background-color: bisque;
+}
+.b3 {
+  background-color: darkseagreen;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+.pic1 {
+  width: 300px;
+  margin: 0 10px;
+}
+
+.b2 {
+  height: 200px;
+  position: relative;
+  top: 100px;
+}
+
+.b3 {
+  width: 150px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.b4 {
+  width: 150px;
+  position: fixed;
+  top: 125px;
+  right: 10px;
+  background-color: lightskyblue;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+/******Page Layout *******/
+.second {
+  position: relative;
+  bottom: 20px;
+  /* right: ;
+  bottom: ;  */
+}
+.nav {
+  margin: 20px;
+  position: relative;
+  background-color: lightblue;
+}
+.header {
+  position: absolute;
+  background-color: yellow;
+  bottom: 20px;
+}
+.footer {
+  width: 100px;
+  position: fixed;
+  top: 20px;
+  right: 50px;
+  background-color: rgb(240, 180, 221);
+}
+
+/****** Float *********/
+.box {
+  float: left;
+  width: 300px;
+  background-color: yellow;
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid red;
+}
+.newrow {
+  clear: left;
+}
+.clear {
+  clear: both;
+}
+
+.foot {
+  background-color: greenyellow;
+}
+
+.pic {
+  float: left;
+  width: 300px;
+  margin: 15px;
+}
